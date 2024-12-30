@@ -1,7 +1,12 @@
+'use client'
+
+import {Container} from "@mui/material";
+import GamePage from "@/components/GamePage";
+
 export default function Home() {
-  return (
-    <div className="container">
-      Hello new world!
-    </div>
-  );
+    return (
+        <Container sx={{padding: "20px", marginTop: '50px'}}>
+            <GamePage/>
+        </Container>
+    );
 }
